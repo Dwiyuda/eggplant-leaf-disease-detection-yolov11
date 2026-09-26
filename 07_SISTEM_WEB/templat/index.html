@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deteksi Penyakit Daun Terung</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='gaya.css') }}">
+</head>
+<body data-ambang-ragu="{{ ambang_ragu }}">
+<main class="wrap">
+  <header>
+    <p class="eyebrow"> &middot; YOLOv11s</p>
+    <h1>Deteksi Penyakit Daun Terung</h1>
+  </header>
+
+  <div class="kolom">
+    <section class="kiri">
+      <div class="sumber">
+        <label class="btn" for="input-berkas" tabindex="0">Unggah Foto</label>
+        <input id="input-berkas" type="file" accept="image/*" hidden>
+        <button id="tombol-kamera" class="btn ghost" type="button">Nyalakan Kamera</button>
+        <button id="tombol-jepret" class="btn" type="button" hidden>Jepret</button>
+      </div>
+
+      <div id="daftar-contoh" class="contoh" hidden></div>
+
+      <div id="zona-unggah" class="panggung">
+        <img id="pratinjau" alt="Foto daun terung yang sedang dianalisis" hidden>
+        <video id="video" playsinline muted hidden></video>
+        <div id="lapis-kotak" class="lapis"></div>
+        <p id="ajakan" class="ajakan">Seret foto ke sini, pilih berkas, atau nyalakan kamera.</p>
+      </div>
+
+      <div class="prog"><i></i></div>
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+      <p class="batas">Model dilatih pada citra daun terung tunggal berlatar polos.</p>
+    </section>
+
+    <aside class="kanan">
+      <div id="kartu-hasil" class="kartu" hidden>
+        <p class="eyebrow">Hasil deteksi</p>
+        <h2 id="nama-kelas"></h2>
+        <p id="angka" class="mono"></p>
+        <div class="meter"><i id="meter-isi"></i></div>
+      </div>
+
+      <div id="peringatan" class="peringatan" hidden></div>
+      <div id="info-penyakit" class="kartu" hidden></div>
+
+      <details id="panel-teknis" hidden>
+        <summary>Detail teknis</summary>
+        <div class="isi-teknis"><table id="tabel-teknis"></table></div>
+      </details>
+    </aside>
+  </div>
+</main>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

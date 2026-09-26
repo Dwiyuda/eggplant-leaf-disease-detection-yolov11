@@ -1,0 +1,4 @@
+healthy_leaf
+mosaic_virus_disease
+leaf_spot_disease
+insect_pest_disease

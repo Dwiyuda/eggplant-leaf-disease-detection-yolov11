@@ -1,0 +1,54 @@
+# ---------------------------------------------------------------
+# penelitian anotator — deteksi penyakit daun terung
+# Proyek di disk ±11 GB; yang masuk repo hanya kode, dokumen, dan
+# satu bobot model final. Seluruh dataset dan artefak diabaikan.
+# ---------------------------------------------------------------
+
+# Lingkungan Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Dataset & citra sumber — 6,2 GB
+02_DATASET/
+03_CITRA_SUMBER/
+
+# Arsip & hasil antara
+99_ARSIP/
+05_HASIL/
+runs/
+
+# Semua arsip terkompresi
+*.zip
+
+# Lembar kerja Excel (data audit mentah)
+*.xlsx
+
+# Ekspor Roboflow
+audit-kotak-terung-Folder- roboflow_upload.coco/
+
+# Audit kotak: simpan CSV & daftar kelas, buang folder citranya
+06_AUDIT_KOTAK/roboflow_upload/
+06_AUDIT_KOTAK/hasil_analisis/label_koreksi_yolo/
+
+# Scratch brainstorming (bukan bagian proyek)
+.superpowers/
+
+# Hasil Kaggle: abaikan semuanya KECUALI bobot model final.
+# Pola negasi harus membuka tiap tingkat folder lebih dulu --
+# git tidak bisa menyertakan berkas di dalam folder yang diabaikan.
+04_KAGGLE/FOLDER_HASIL_KAGGLE/**
+!04_KAGGLE/FOLDER_HASIL_KAGGLE/
+!04_KAGGLE/FOLDER_HASIL_KAGGLE/hasil_yolo11_ablasi_resolusi_dataset_baru/
+!04_KAGGLE/FOLDER_HASIL_KAGGLE/hasil_yolo11_ablasi_resolusi_dataset_baru/img1024/
+!04_KAGGLE/FOLDER_HASIL_KAGGLE/hasil_yolo11_ablasi_resolusi_dataset_baru/img1024/best_yolo11s_img1024.pt
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+.env
+venv/
+*.pyc
+.ipynb_checkpoints/

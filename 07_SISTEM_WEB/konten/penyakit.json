@@ -1,0 +1,74 @@
+{
+  "healthy_leaf": {
+    "nama_id": "Daun Sehat",
+    "gejala": "Daun terung dalam kondisi normal dan sehat, tanpa tanda visual penyakit maupun kerusakan akibat hama. Permukaan daun tidak menunjukkan bercak, lubang, perubahan warna, atau kerusakan jaringan. Kelas ini dipakai sebagai pembanding terhadap daun yang terinfeksi.",
+    "penyebab": "Tidak ada patogen atau hama yang terdeteksi pada helai daun. Daun berfungsi normal untuk fotosintesis.",
+    "penanganan": [
+      "Pertahankan sanitasi lahan: singkirkan sisa tanaman dan gulma secara teratur agar tidak menjadi sumber inokulum.",
+      "Lakukan rotasi tanaman dengan famili berbeda; hindari menanam berdampingan dengan tomat, kentang, dan cabai yang rentan hama serupa.",
+      "Atur jarak tanam dan pemupukan berimbang agar tajuk tidak terlalu rapat dan kelembapan tidak memicu jamur.",
+      "Pantau tanaman secara berkala, terutama permukaan bawah daun, agar serangan awal terdeteksi sebelum meluas."
+    ],
+    "sumber": [
+      "Pahlevi dkk. (2025) — klasifikasi citra daun terung sehat vs berpenyakit",
+      "CABI BioProtection Portal — Management and biological controls for eggplant pests"
+    ]
+  },
+
+  "mosaic_virus_disease": {
+    "nama_id": "Penyakit Mosaik Virus",
+    "gejala": "Perubahan warna daun yang tidak merata sehingga membentuk pola menyerupai mosaik. Tampak warna hijau muda berselang hijau tua, mosaik kuning, tekstur daun tidak merata, serta malformasi atau perubahan bentuk daun. Dapat disertai penebalan tulang daun dan pertumbuhan terhambat.",
+    "penyebab": "Pada tanaman terung, gejala mosaik dapat berasosiasi dengan infeksi Begomovirus. Nabillah dkk. (2024) menemukan gejala sistemik mosaik kuning pada pertanaman terung di Bengkulu, dengan sampel daun bergejala mosaik kuning, malformasi, dan penebalan tulang daun terdeteksi melalui PCR. Begomovirus ditularkan serangga vektor kutu kebul (Bemisia tabaci).",
+    "penanganan": [
+      "Eradikasi tanaman bergejala: cabut dan musnahkan segera agar tidak menjadi sumber penularan ke tanaman sehat.",
+      "Kendalikan vektor kutu kebul — ini kunci, karena virusnya sendiri tidak dapat diobati setelah tanaman terinfeksi.",
+      "Pasang mulsa plastik perak yang memantulkan sinar matahari untuk mengganggu perkembangbiakan kutu kebul.",
+      "Pasang perangkap kuning untuk memantau dan menurunkan populasi kutu kebul dewasa.",
+      "Sanitasi gulma secara teratur; gulma terinfeksi dikubur di luar pertanaman atau dibakar.",
+      "Pertimbangkan biopestisida cendawan entomopatogen seperti Beauveria bassiana atau Lecanicillium lecanii untuk menekan vektor."
+    ],
+    "sumber": [
+      "Nabillah dkk. (2024) — deteksi Begomovirus pada terung di Bengkulu",
+      "Dinas Pertanian Kabupaten Buleleng — Pengendalian Virus Kuning",
+      "Repositori Kementerian Pertanian — Virus Kuning dan Cara Pengendaliannya"
+    ]
+  },
+
+  "leaf_spot_disease": {
+    "nama_id": "Penyakit Bercak Daun",
+    "gejala": "Muncul bercak pada permukaan daun disertai perubahan warna. Bercak umumnya berwarna coklat, berbentuk bulat atau tidak beraturan, dengan ukuran bervariasi sesuai tingkat keparahan serangan. Daun dapat menguning di sekitar area bercak.",
+    "penyebab": "Maulidia dkk. (2023) menjelaskan gejala bercak daun pada terung ditandai daun menguning dengan bercak coklat berbentuk bulat, diindikasikan disebabkan fungi Cercospora sp. Pahlevi dkk. (2025) menyebutkan penyakit bercak daun pada terung dapat disebabkan jamur patogen Alternaria sp. dengan ciri bercak coklat, bentuk tidak beraturan, dan berdiameter sekitar 0,5 cm.",
+    "penanganan": [
+      "Buang dan musnahkan daun bergejala; jangan dibiarkan di lahan karena menjadi sumber spora.",
+      "Lakukan sanitasi lahan dan pengolahan tanah setelah panen untuk menekan sumber inokulum.",
+      "Terapkan rotasi tanaman dengan famili berbeda untuk memutus siklus patogen.",
+      "Atur jarak tanam agar sirkulasi udara baik dan kelembapan di sekitar tajuk menurun.",
+      "Gunakan pemupukan berimbang dan varietas yang lebih tahan bila tersedia.",
+      "Aplikasi fungisida dapat dilakukan bila serangan meluas; ikuti dosis dan anjuran pada label, serta pertimbangkan pestisida nabati untuk menekan penggunaan pestisida sintetik."
+    ],
+    "sumber": [
+      "Maulidia dkk. (2023) — bercak daun Cercospora sp. pada terung",
+      "Pahlevi dkk. (2025) — bercak daun Alternaria sp. pada terung",
+      "Cybex Kementerian Pertanian — Hama dan Penyakit pada Tanaman Terong"
+    ]
+  },
+
+  "insect_pest_disease": {
+    "nama_id": "Penyakit Akibat Hama Serangga",
+    "gejala": "Kerusakan daun akibat serangan hama serangga: lubang pada helai daun, permukaan daun tidak rata, tepi daun rusak, daun menguning, hingga layu. Kerusakan timbul dari aktivitas makan maupun pengisapan cairan daun oleh serangga.",
+    "penyebab": "Shk dkk. menyebutkan hama yang menyerang terung antara lain Epilachna sparsa, Empoasca sp., Bemisia tabaci, Spodoptera litura, dan Chrysodeixis chalcites. Putri Elsa dkk. melaporkan Spodoptera litura, Epilachna sp., Empoasca sp., Aphidoidea, dan Bemisia tabaci ditemukan pada tanaman terung dengan gejala permukaan daun tidak rata, berlubang, menguning, serta layu.",
+    "penanganan": [
+      "Hindari monokultur: rotasikan terung dengan tanaman dari famili berbeda untuk memutus siklus hidup hama.",
+      "Lakukan sanitasi dan cabut tanaman yang terserang berat.",
+      "Olah atau bajak lahan setelah panen untuk menghancurkan larva yang bertahan di tanah.",
+      "Kendalikan secara hayati: ekstrak nabati seperti minyak nimba (neem), Bacillus thuringiensis untuk larva penggerek, dan parasitoid Trichogramma untuk telur hama.",
+      "Pantau berkala gejala kerusakan daun, termasuk permukaan bawah daun tempat kutu kebul berkelompok.",
+      "Gunakan varietas tahan hama bila tersedia; aplikasi insektisida selektif hanya bila populasi melewati ambang kendali."
+    ],
+    "sumber": [
+      "Shk dkk. — hama pada tanaman terung",
+      "Putri Elsa dkk. — gejala kerusakan hama pada terung",
+      "CABI BioProtection Portal — Management and biological controls for eggplant pests"
+    ]
+  }
+}
