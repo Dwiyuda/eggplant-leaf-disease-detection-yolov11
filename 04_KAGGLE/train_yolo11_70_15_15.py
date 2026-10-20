@@ -371,7 +371,7 @@ print(f"\nMETRIK PER KELAS (test) -- {terbaik['model']}\n")
 print(per_kelas[(per_kelas.model == terbaik["model"])
                 & (per_kelas.subset == "test")].to_string(index=False))
 
-print("\nCatatan Bab IV: dataset ini timpang di level box (~11:1). healthy_leaf dan "
+print("\nCatatan hasil: dataset ini timpang di level box (~11:1). healthy_leaf dan "
       "mosaic_virus_disease hanya 1 box per citra, leaf_spot dan insect ~10 box. "
       "Karena itu mAP per kelas di atas lebih informatif daripada rata-ratanya saja.")
 
@@ -450,7 +450,7 @@ print("\nsalinan dataset kerja dihapus.")
 # **Kenapa early stopping, bukan epoch tetap.** `patience=30` menghentikan training
 # kalau mAP validasi tidak membaik selama 30 epoch berturut-turut, lalu `best.pt`
 # diambil dari epoch terbaik — bukan epoch terakhir. Ini penjaga overfitting standar
-# dan bisa langsung dilaporkan di Bab III. Jumlah epoch yang benar-benar terpakai
+# dan bisa langsung dilaporkan di bagian metodologi. Jumlah epoch yang benar-benar terpakai
 # tercatat di kolom `epoch` pada tabel perbandingan.
 #
 # **Kenapa ketiga varian pakai setelan identik.** Kalau n, s, dan m dilatih dengan

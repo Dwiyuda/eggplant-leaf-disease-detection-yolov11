@@ -116,7 +116,7 @@ Bobot itu **ikut disertakan di repositori** (18 MB), jadi setelah `git clone` si
 
 3. **Inferensi berjalan di CPU**, sekitar 343 ms per citra. Ini alat demo, bukan sistem produksi.
 
-4. **Kualitas kotak dibatasi plafon anotasi otomatis.** Kotak lesi dibuat aturan warna `autolabel.py`, dan audit mengukur 46% kotak palsu serta 56% kotak asli terlewat. Itu sebabnya mAP kelas lesi rendah sementara akurasi tingkat-citra mencapai 79,8%. Rinciannya di Bab IV.
+4. **Kualitas kotak dibatasi plafon anotasi otomatis.** Kotak lesi dibuat aturan warna `autolabel.py`, dan audit mengukur 46% kotak palsu serta 56% kotak asli terlewat. Itu sebabnya mAP kelas lesi rendah sementara akurasi tingkat-citra mencapai 79,8%. Rinciannya di `06_AUDIT_KOTAK/`.
 
 5. **Angka "dominasi deteksi" bukan akurasi dan bukan probabilitas.** Ia adalah porsi kepercayaan kelas pemenang terhadap seluruh deteksi pada citra itu.
 

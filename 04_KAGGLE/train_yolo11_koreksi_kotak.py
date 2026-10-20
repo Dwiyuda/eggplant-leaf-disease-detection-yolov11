@@ -424,7 +424,7 @@ if len(kolom) >= 2:
     else:
         print("\n  => HASIL CAMPURAN. Kenaikan tidak terkonsentrasi di kelas kecil,")
         print("     jadi mekanismenya bukan objek-kecil. Tafsirkan hati-hati dan")
-        print("     jangan klaim resolusi sebagai sebabnya di Bab IV.")
+        print("     jangan klaim resolusi sebagai sebabnya di laporan hasil.")
 else:
     print("\nHanya satu resolusi selesai — kurva tidak bisa dibentuk.")
 

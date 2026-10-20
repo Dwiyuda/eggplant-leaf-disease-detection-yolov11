@@ -206,7 +206,7 @@ def main():
     print(f"\nhasil -> {KELUARAN}")
     if not a.test:
         print("\nIni subset VAL. Setelah konfigurasi final dikunci, jalankan sekali")
-        print("dengan --test untuk angka yang masuk Bab IV.")
+        print("dengan --test untuk angka akhir yang dilaporkan.")
 
 
 if __name__ == "__main__":

@@ -268,7 +268,7 @@ def jalankan(args):
     print(f"\nTERPILIH: aturan '{terbaik['aturan']}' pada conf {terbaik['conf']:.2f}")
     print(f"          val akurasi {terbaik['akurasi']:.4f} | makro-F1 {terbaik['makro_f1']:.4f}")
 
-    # kurva ambang untuk aturan terpilih -- bahan grafik Bab IV
+    # kurva ambang untuk aturan terpilih -- bahan grafik hasil evaluasi
     kurva = [r for r in rekap if r["aturan"] == terbaik["aturan"]]
     kurva.sort(key=lambda r: r["conf"])
     with open(KELUARAN / "kurva_ambang_val.csv", "w", newline="", encoding="utf-8") as f:

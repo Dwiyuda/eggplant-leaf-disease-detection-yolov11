@@ -124,6 +124,6 @@ Kirim dua hal:
 Dari situ dihitung berapa persen kotak yang ternyata palsu — **dari kelompok acak saja** — lalu diputuskan:
 
 - **Banyak palsu** → perbaiki ambang di `autolabel.py` supaya berhenti membuat kotak pada variasi warna biasa, buat ulang label seluruh dataset, latih ulang. Jauh lebih murah daripada menggambar 12.693 kotak dengan tangan.
-- **Kotaknya sudah wajar** → recall rendah memang keterbatasan deteksi objek kecil. Laporkan apa adanya di Bab IV, dan berhenti di situ.
+- **Kotaknya sudah wajar** → recall rendah memang keterbatasan deteksi objek kecil. Laporkan apa adanya di hasil evaluasi, dan berhenti di situ.
 
-Anotasi manual 100 citra ini juga jadi **acuan kebenaran**: bisa dipakai mengukur seberapa jauh `autolabel.py` menyimpang, dan itu angka yang bagus untuk Bab IV.
+Anotasi manual 100 citra ini juga jadi **acuan kebenaran**: bisa dipakai mengukur seberapa jauh `autolabel.py` menyimpang, dan itu angka yang bagus untuk dilaporkan.
